@@ -28,6 +28,8 @@ This is not finished and i only made it because i was bored so some things wont 
 
 Also make sure to run it in the file as the dll's are important.
 
+Make sure to run 'setup.exe' file as admin otherwise it wwill not work.
+
 # **FINALLY**
 
 This is a real ransomeware tool and will harm your PC and we accept no responsibility with what you do with this tool.
