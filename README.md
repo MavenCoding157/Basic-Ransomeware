@@ -26,6 +26,8 @@ However if you run the file from 'release' you will not be able to ask task mana
 
 This is not finished and i only made it because i was bored so some things wont work or be buggy.
 
+Also make sure to run it in the file as the dll's are important.
+
 # **FINALLY**
 
 This is a real ransomeware tool and will harm your PC and we accept no responsibility with what you do with this tool.
