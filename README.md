@@ -4,7 +4,7 @@
  
  **THIS FILE IS ONLY INTENDED FOR WINDOWS**
  
-![sus](https://user-images.githubusercontent.com/117538886/219964290-14112d53-7f36-451e-8698-ffdb87fe88a7.png)
+![soos](https://user-images.githubusercontent.com/117538886/219966338-b60a245e-b6c7-44e4-91d4-3f11c7264559.png)
 
 #
 
