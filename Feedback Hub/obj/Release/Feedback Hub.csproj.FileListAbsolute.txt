@@ -1,0 +1,23 @@
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Release\Feedback Hub.exe.config
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Release\Feedback Hub.exe
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Release\Feedback Hub.pdb
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Release\Feedback Hub.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Release\Feedback Hub.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Release\Feedback_Hub.Decrypt.resources
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Release\Feedback_Hub.Form1.resources
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Release\Feedback_Hub.Properties.Resources.resources
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Release\Feedback Hub.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Release\Feedback Hub.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Release\Feedback Hub.exe
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Release\Feedback Hub.pdb
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Release\System.Buffers.dll
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Release\System.Memory.dll
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Release\System.Numerics.Vectors.dll
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Release\System.Buffers.xml
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Release\System.Memory.xml
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Release\System.Numerics.Vectors.xml
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Release\Feedback Hub.csproj.CopyComplete

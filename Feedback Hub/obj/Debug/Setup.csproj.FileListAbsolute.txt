@@ -1,0 +1,23 @@
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Debug\Feedback Hub.exe.config
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Debug\Feedback Hub.exe
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Debug\Feedback Hub.pdb
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Debug\System.Buffers.dll
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Debug\System.Memory.dll
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Debug\System.Buffers.xml
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Debug\System.Memory.xml
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Debug\Setup.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Debug\Setup.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Debug\Feedback_Hub.Decrypt.resources
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Debug\Feedback_Hub.Form1.resources
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Debug\Feedback_Hub.Properties.Resources.resources
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Debug\Setup.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Debug\Setup.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Debug\Setup.csproj.CopyComplete
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Debug\Feedback Hub.exe
+C:\Users\PC\Desktop\my virus\Feedback Hub\Feedback Hub\obj\Debug\Feedback Hub.pdb
