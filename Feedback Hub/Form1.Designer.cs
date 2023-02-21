@@ -51,9 +51,10 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -61,14 +62,12 @@
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.date = new System.Windows.Forms.Timer(this.components);
-            this.label12 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -120,7 +119,7 @@
             // button1
             // 
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(1395, 3);
+            this.button1.Location = new System.Drawing.Point(1374, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(70, 38);
             this.button1.TabIndex = 2;
@@ -160,7 +159,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Yellow;
-            this.label11.Location = new System.Drawing.Point(1046, 9);
+            this.label11.Location = new System.Drawing.Point(1070, 9);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(100, 30);
             this.label11.TabIndex = 8;
@@ -306,48 +305,61 @@
             this.label5.TabIndex = 7;
             this.label5.Text = "Oops, someone downloaded something they shouldnt have";
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.IndianRed;
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel4.Controls.Add(this.button4);
-            this.panel4.Location = new System.Drawing.Point(1111, 93);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(328, 177);
-            this.panel4.TabIndex = 8;
-            // 
-            // button4
-            // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(25, 21);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(276, 133);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "Show Computer name";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.IndianRed;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.richTextBox2);
             this.panel5.Controls.Add(this.label12);
+            this.panel5.Controls.Add(this.linkLabel4);
             this.panel5.Controls.Add(this.label9);
             this.panel5.Controls.Add(this.label8);
             this.panel5.Controls.Add(this.label7);
-            this.panel5.Location = new System.Drawing.Point(1111, 310);
+            this.panel5.Location = new System.Drawing.Point(1111, 93);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(328, 177);
+            this.panel5.Size = new System.Drawing.Size(328, 394);
             this.panel5.TabIndex = 9;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.Color.IndianRed;
+            this.richTextBox2.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.ForeColor = System.Drawing.Color.Black;
+            this.richTextBox2.Location = new System.Drawing.Point(14, 233);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(299, 145);
+            this.richTextBox2.TabIndex = 15;
+            this.richTextBox2.Text = "";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(91, 192);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(57, 30);
+            this.label12.TabIndex = 14;
+            this.label12.Text = "time";
+            // 
+            // linkLabel4
+            // 
+            this.linkLabel4.AutoSize = true;
+            this.linkLabel4.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel4.Location = new System.Drawing.Point(91, 144);
+            this.linkLabel4.Name = "linkLabel4";
+            this.linkLabel4.Size = new System.Drawing.Size(103, 30);
+            this.linkLabel4.TabIndex = 13;
+            this.linkLabel4.TabStop = true;
+            this.linkLabel4.Text = "PC Name";
+            this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(88, 79);
+            this.label9.Location = new System.Drawing.Point(90, 99);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(61, 30);
             this.label9.TabIndex = 9;
@@ -356,11 +368,11 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Yellow;
-            this.label8.Location = new System.Drawing.Point(89, 9);
+            this.label8.Location = new System.Drawing.Point(73, 11);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(141, 21);
+            this.label8.Size = new System.Drawing.Size(183, 30);
             this.label8.TabIndex = 8;
             this.label8.Text = "Your Information";
             // 
@@ -369,7 +381,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(88, 40);
+            this.label7.Location = new System.Drawing.Point(90, 60);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(33, 30);
             this.label7.TabIndex = 7;
@@ -416,29 +428,17 @@
             this.date.Enabled = true;
             this.date.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(88, 123);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(110, 30);
-            this.label12.TabIndex = 10;
-            this.label12.Text = "I SEE YOU";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkRed;
-            this.ClientSize = new System.Drawing.Size(1463, 592);
+            this.ClientSize = new System.Drawing.Size(1447, 591);
             this.ControlBox = false;
             this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.richTextBox1);
@@ -463,7 +463,6 @@
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.ResumeLayout(false);
@@ -486,9 +485,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label6;
@@ -504,7 +501,9 @@
         private System.Windows.Forms.Timer date;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.LinkLabel linkLabel4;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.RichTextBox richTextBox2;
     }
 }
 

